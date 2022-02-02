@@ -1,0 +1,6 @@
+-   id: go-check-version
+    name: 'go check version'
+    entry: check-go-version.sh
+    files: '\.go$'
+    language: 'script'
+    description: "Check golang version supported, requires go.mod file in module"
