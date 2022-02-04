@@ -6,6 +6,7 @@ if [ $# -eq 0 ]; then
     exit 1
 fi
 
+
 FILE=go.mod
 if [ -f "$FILE" ]; then
   base_version=$1
@@ -21,4 +22,3 @@ if [ -f "$FILE" ]; then
 else
     echo "$FILE does not exist."
 fi
-
