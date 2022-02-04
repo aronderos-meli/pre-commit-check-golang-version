@@ -16,4 +16,3 @@ Add this to your `.pre-commit-config.yaml`
 ### Available hooks
 
 - `go-check-version` - validate golang version declared in go.mod file, requires go.mod file
-
